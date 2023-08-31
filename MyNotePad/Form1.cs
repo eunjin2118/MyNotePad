@@ -46,5 +46,10 @@ namespace MyNotePad
         {
             Application.Exit();
         }
+
+        private void 메모장정보ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("제작자 : 편은진", "메모장 정보", MessageBoxButtons.OK, MessageBoxIcon.Information); ;
+        }
     }
 }
